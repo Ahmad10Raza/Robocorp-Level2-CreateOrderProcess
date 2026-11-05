@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12.12
+  - pip=26.2.2
+  - pip:
+      - robocorp-tasks==4.1.1
+      - robocorp-browser==2.4.0
+      - rpaframework==34.0.1
+      - sema4ai-actions==1.6.2
+

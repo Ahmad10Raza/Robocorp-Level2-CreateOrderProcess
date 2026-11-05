@@ -1,0 +1,8 @@
+{
+  "include": [
+    "."
+  ],
+  "extraPaths": [
+    "/home/ahmad10raza/.sema4ai/holotree/cc4413d_a78733b_e5907dc9/lib/python3.12/site-packages"
+  ]
+}

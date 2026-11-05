@@ -1,0 +1,22 @@
+tasks:
+  Order Robots Process:
+    command:
+      - python
+      - -m
+      - robocorp.tasks
+      - run
+      - tasks.py
+      - -t
+      - order_robots_task
+
+environmentConfigs:
+  - conda_rcc.yaml
+
+artifactsDir: output
+
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore

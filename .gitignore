@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output and runtime artifacts (Robocorp & Sema4.ai)
+output/
+*.zip
+*.pdf
+*.log
+*.robolog
+temp/
+metadata.json
+
+# Environment and Package Managers (PDM, venv, conda, holotree)
+.pdm-build/
+.pdm-python
+__pypackages__/
+.venv/
+venv/
+ENV/
+env/
+.sema4ai/
+.robocorp/
+
+# IDE and OS artifacts
+.DS_Store
+.project
+.pydevproject
+.vscode/
+.idea/
+.env
+__MACOSX
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
